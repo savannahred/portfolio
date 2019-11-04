@@ -1,0 +1,119 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 8% auto 8%;
+    grid-template-rows: 12% auto auto auto auto auto;
+    grid-row-gap: 15px;
+}
+header{
+    grid-column: 1/4;
+    grid-row:1;
+    height: 100px;
+}
+
+header img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+.menu-item.is-active a {
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+  }
+
+nav {
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 1em;
+    padding: 0; 
+    text-align: center;
+    margin: auto;
+    width:100%;
+}
+.navigation li{
+    display: inline-block;
+    text-align: center;
+    padding: 0 1em 0 0;
+    margin: 0;
+    color: black;
+}
+
+h1{
+font-family: Didot;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.2em;
+margin-bottom: 8%;
+}
+
+h2{
+    font-family: Didot;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 15px auto;
+    }
+p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+
+}
+
+img{
+    grid-column: 2;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.aboutcontainer img{
+    margin-top: 30px;
+}
+.aboutcontainer li{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+footer{
+    grid-column: 1/4;
+    grid-row: 6;
+}
+.social-buttons{
+    width: 30px;
+}
+footer li{
+    grid-column: 2;
+    grid-row: 6;
+
+}
+footer nav{
+    margin: 50px auto;
+}
+.footer-copyright{
+    text-align: center;
+    padding-bottom: 50px;
+}
