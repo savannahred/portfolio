@@ -2,7 +2,7 @@
 .container{
     display: grid;
     grid-template-columns: 8% auto 8%;
-    grid-template-rows: 12% auto auto auto auto auto;
+    grid-template-rows: 9% auto auto auto auto auto;
     grid-row-gap: 15px;
 }
 header{
@@ -100,17 +100,25 @@ img{
 }
 footer{
     grid-column: 1/4;
-    grid-row: 6;
+    grid-row: 3/ auto;
 }
 .social-buttons{
-    width: 30px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin: 0 3em;
+    padding: 0;
+} 
+svg{
+    width:30px;
+    padding: 10px;
 }
 footer li{
-    grid-column: 2;
-    grid-row: 6;
-
+    display: inline-block;
+    margin: auto;
+    
 }
 footer nav{
+    margin: 50px auto;
     margin: 50px auto;
 }
 .footer-copyright{

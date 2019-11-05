@@ -96,17 +96,21 @@ img{
 
 footer{
     grid-column: 1/4;
-    grid-row: 3/4;
+    grid-row: 3/ auto;
 }
 .social-buttons{
-    justify-content: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin: 0 3em;
+    padding: 0;
 } 
 svg{
     width:30px;
+    padding: 10px;
 }
 footer li{
     display: inline-block;
-    align-content: center;
+    margin: auto;
     
 }
 footer nav{
