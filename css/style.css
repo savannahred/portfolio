@@ -12,12 +12,11 @@ header{
 }
 
 header img {
-    width: 100%;
+    width: 25em;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
-
 }
 
 a{
@@ -115,4 +114,20 @@ footer li{
 }
 footer nav{
     margin: 50px auto;
+}
+
+@media screen and (min-width: 636px){
+    .container{
+        grid-template-columns: 8% auto auto 8%;
+        grid-template-rows: 8% auto auto auto;
+    }
+    header{
+        grid-column: 2/4;
+        grid-row: 1/1;
+    }
+    .works h1{
+        grid-column: 2/4;
+        grid-row: 2/2;
+    }
+
 }
