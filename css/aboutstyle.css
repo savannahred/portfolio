@@ -146,7 +146,7 @@ input[type=text], textarea, input[type=email]{
     resize: vertical;
   }
   
-  input[type=submit] {
+  button[type=submit] {
     background-color: gray;
     color: white;
     padding: 12px 20px;
@@ -155,7 +155,7 @@ input[type=text], textarea, input[type=email]{
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  button[type=submit]:hover {
     background-color: lightskyblue;
   }
   
