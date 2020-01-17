@@ -150,13 +150,13 @@ main ul{
         grid-template-rows: auto 50px;
         grid-column-gap: 15px;
     }
-   .michnews img{
+   /* .michnews img{
        grid-column: 1;
-       /* max-width: 500px; */
+       max-width: 500px;
        display: block;
     margin-left: auto;
     margin-right: auto;
-   }
+   } */
    .newstext{
        grid-column: 2;
        padding: 20px;
