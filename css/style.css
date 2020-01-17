@@ -370,7 +370,7 @@ main ul{
 /* tbm slider */
 /* * {box-sizing: border-box} */
 .mySlides {display: none}
-img {vertical-align: center;
+.slider img {vertical-align: center;
 margin: 0;}
 
 
