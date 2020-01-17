@@ -152,7 +152,7 @@ main ul{
     }
    .michnews img{
        grid-column: 1;
-       max-width: 500px;
+       /* max-width: 500px; */
        display: block;
     margin-left: auto;
     margin-right: auto;
