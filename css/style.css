@@ -147,8 +147,16 @@ main ul{
     .michnews{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto 50px;
+        grid-template-rows: auto;
         grid-column-gap: 15px;
+        grid-row-gap:50px;
+    }
+    .michnews img{
+        max-width: 450px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
     }
    /* .michnews img{
        grid-column: 1;
