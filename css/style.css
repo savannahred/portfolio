@@ -323,7 +323,7 @@ main ul{
     .mmd img{
         grid-column: 1;
         grid-row: 1;  
-        max-width: 500px;
+        max-width: 450px;
     }
     .mmdshort{
         grid-column: 2;
@@ -351,7 +351,7 @@ main ul{
     .ffbook img{
         grid-column: 1;
         grid-row: 1; 
-        max-width: 500px; 
+        max-width: 450px;
     }
     .ffshort{
         grid-column: 2;
