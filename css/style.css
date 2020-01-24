@@ -144,6 +144,7 @@ main ul{
     .personal h1{
         padding-top: 50px;
     }
+
     .michnews{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -189,7 +190,7 @@ main ul{
     padding-top: 30px;
     margin: auto;
   }
-  .diy{
+  /* .diy{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -207,7 +208,7 @@ main ul{
     padding: 20px;
     margin: auto;
       
-  }
+  } */
   }
   /* michnews style */
 .michigantoday p{
@@ -310,6 +311,29 @@ main ul{
         max-width: 600px;
         align-items: center;
     }
+
+
+    .personal_all{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 15px;
+        grid-row-gap:50px;
+        align-items: center;
+    }
+    
+    .personal_all img{
+       grid-column: 1;
+            grid-row: 1;  
+            max-width: 450px;
+        }
+    
+    .diy{
+        grid-column: 2;
+        grid-row: 1; 
+    
+    }
+
 
     }
 
