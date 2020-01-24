@@ -190,7 +190,7 @@ main ul{
     padding-top: 30px;
     margin: auto;
   }
-  /* .diy{
+  .diy{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -208,7 +208,7 @@ main ul{
     padding: 20px;
     margin: auto;
       
-  } */
+  }
   }
   /* michnews style */
 .michigantoday p{
@@ -328,7 +328,7 @@ main ul{
             max-width: 450px;
         }
     
-    .diy{
+    .personal_diy{
         grid-column: 2;
         grid-row: 1; 
     
